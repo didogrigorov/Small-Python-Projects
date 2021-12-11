@@ -2,7 +2,6 @@ numbers = input("Input a list of student scores ").split()
 for n in range(0, len(numbers)):
   numbers[n] = int(numbers[n])
 
-#Write your code below this row 👇
 max_scores = numbers[0]
 
 for item in numbers:
